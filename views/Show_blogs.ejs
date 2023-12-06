@@ -16,14 +16,30 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+    body {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/003/484/037/original/modern-abstract-background-design-with-colorful-liquid-shapes-fluid-background-design-for-landing-page-theme-brochure-banner-cover-print-flyer-book-card-or-advertising-vector.jpg ");
+      background-size: cover;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      letter-spacing: 2px;
+    }
+  </style>
+
   <body style="background-color: rgb(215, 215, 215)">
-    <div class="container d-flex justify-content-between mx-5 mt-5 w-100">
-      <h1 class="d-inline">All Blogs</h1>
+    <div
+      class="container align-items-center d-flex justify-content-between mx-5 mt-5 w-100 bg-black rounded-5 p-3"
+      style="opacity: 0.7"
+    >
+      <h1 class="d-inline text-light">All Blogs</h1>
       <a href="/add-blog" class="btn btn-secondary p-3">Add New Blog</a>
     </div>
     <div
-      class="container w-100 d-flex mt-5 border bg-white p-5 flex-wrap"
-      style=""
+      class="container w-100 d-flex mt-5 border bg-white p-5 flex-wrap rounded-5"
+      style="--bs-bg-opacity: 0.7"
     >
       <% for(let item of allBlogs){ %>
 

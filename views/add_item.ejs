@@ -20,11 +20,22 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- <link rel="stylesheet" href="/views/style.css" /> -->
   </head>
+  <style>
+    body {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/003/484/037/original/modern-abstract-background-design-with-colorful-liquid-shapes-fluid-background-design-for-landing-page-theme-brochure-banner-cover-print-flyer-book-card-or-advertising-vector.jpg ");
+      background-size: cover;
+      font-weight: 600;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      letter-spacing: 2px;
+    }
+  </style>
   <body style="background-color: rgb(224, 224, 224)">
     <form
-      class="w-50 mx-auto mt-5 border p-3 rounded mb-5 bg-white"
+      class="w-50 mx-auto mt-5 border p-3 rounded-5 mb-5 bg-white"
+      style="--bs-bg-opacity: 0.4"
       action="/add-blog"
       method="POST"
     >
